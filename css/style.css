@@ -184,6 +184,54 @@ header{
     border: 1px solid red; 
 }
 
+.second-container{
+    display: flex;
+    height: 300px;
+    max-width: 700px;
+    margin-left: 340px;
+    border: 1px solid red; 
+}
+
+.imgbox, .partner-box{
+    height: 100%;
+    width: calc(100% / 2);
+    border: 1px solid red; 
+}
+
+.third-container{
+    max-width: 700px;
+    height: 900px;
+    margin-left: 340px;
+    border: 1px solid red;
+}
+
+.third-title{
+    border: 1px solid red;
+}
+
+.boxes-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-third-container{
+    height: 412px;
+    width: calc(100% / 3);
+    border: 1px solid red;
+}
+
+.toolsimg{
+    height: 50%px;
+    width: 100%;
+}
+
+.text-tools{
+    height: 50%px;
+    width: 100%;
+    border: 1px solid red;
+}
+
+
+
 
 
 
