@@ -32,11 +32,14 @@ header{
     border: 1px red solid;
     height: 100%;
     width: 500px;
+    text-align: center;
+    padding: 10px 0px;
 }
 
-.logo{
+.logo, .button-top-header{
     height: 100%;
     width: 30%;
+    background-color: pink;
     border: 1px red solid;
 }
 .nav-left{
@@ -47,4 +50,9 @@ header{
     width: 70%;
     height: 100%;
     ;
+}
+
+.header-button{
+    height: 100%;
+    width: 50px;
 }
