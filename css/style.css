@@ -5,16 +5,13 @@
 }
 
 body{
-    font-family: 'Fredoka One', cursive;
 font-family: 'Open Sans', sans-serif;
-font-family: 'Righteous', cursive;
-font-family: 'Sacramento', cursive;
+font-size: small;
 }
 
 header{
     max-width: 100%;
     height: 600px;
-    border: 2px blue solid;
 }
 .top-header{
     display: flex;
@@ -27,11 +24,9 @@ header{
     height: 50px;
     z-index: 999;
     background-color: #ffff;
-    border: 1px red solid;
 }
 .container-left, .container-right{
     display: flex;
-    border: 1px red solid;
     height: 100%;
     width: 500px;
     text-align: center;
@@ -40,14 +35,21 @@ header{
 .logo, .button-top-header{
     height: 100%;
     width: 30%;
-    background-color: pink;
-    border: 1px red solid;
+}
+
+button{
+    background-color: #1E74FF;
+    border: none;
+    color: #ffff;
+    padding: 5px;
+}
+
+a {
+    color:#1E74FF;
 }
 .nav-left{
     display: flex;
     justify-content: space-around;
-    background-color: aquamarine;
-    border: 1px red solid;
     width: 70%;
     height: 100%;
     ;
@@ -69,10 +71,7 @@ header{
 }
 
 .jumbo-title{
-    height: 30%;
-    width: 50%;
-    font-size: larger;
-    border: 1px red solid;
+   font-size: x-large;   
 }
 
 .jumbo-description{
@@ -80,18 +79,11 @@ header{
     width: 30%;
     font-size: larger;
     padding: 10px 0px ;
-    border: 1px red solid;
-}
-
-.jumbo-button{
-    height: 10%;
-    width: 15%;
-    border: 1px red solid;
+    
 }
 
 #annulla{
-    border: 1px red solid;
-    margin-top: 10px;
+    margin-top: 40px;
 }
 
 .jumbotron-container{
@@ -103,7 +95,7 @@ header{
     height: 60%;
     width: 40%;
     position: absolute;
-    top: 40%;
+    top: 45%;
     right: 15%;
 }
 
@@ -117,17 +109,17 @@ header{
     max-width: 700px;
     height: 1100px;
     margin:auto;
-    border: 1px solid red;
+    
 }
 
 .first-title{
-    border: 1px solid red;
+    width: 600px;
     font-size: x-large;
 }
 
 .checkbox{
     display: flex;
-    border: 1px solid red;
+   
 }
 
 .check-text{
@@ -137,7 +129,7 @@ header{
 
 .checkone, .checktwo{
     display: flex;
-    border: 1px solid red;
+   
 }
 
 .firstcheck{
@@ -167,18 +159,37 @@ header{
     text-align: center;
 }
 
+.first-container-box hr{
+    border-top: 1px solid #D0D0D3 ;
+}
 .first-container-box{
     width: calc(100% / 3);
-    height: 700px;
+    height: 600px;
     margin-right: 20px;
-    border: 1px solid red; 
+    border: 1px solid #D0D0D3; 
 }
+
+.xxx{
+    width: 60px;
+}
+
+.bluecheck{
+    color: #1E74FF;
+    font-size: larger;
+}
+
+
+
+
+
+
+
 
 .first-container-box1, .first-container-box2,.first-container-box3 {
     width: calc(100% / 3);
     height: 30px;
-    margin-right: 20px;
-    border: 1px solid red; 
+    margin:auto;
+    border: 1px solid #D0D0D3; 
 }
 
 .first-container-row{
