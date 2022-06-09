@@ -116,7 +116,7 @@ header{
 .firts-container{
     max-width: 700px;
     height: 1100px;
-    margin-left: 340px;
+    margin:auto;
     border: 1px solid red;
 }
 
@@ -194,7 +194,7 @@ header{
     display: flex;
     height: 300px;
     max-width: 700px;
-    margin-left: 340px;
+    margin:auto;
     border: 1px solid red; 
 }
 
@@ -207,7 +207,7 @@ header{
 .third-container{
     max-width: 700px;
     height: 900px;
-    margin-left: 340px;
+    margin:auto;
     border: 1px solid red;
 }
 
@@ -238,6 +238,8 @@ header{
 
 .marketing{
     height: 300px;
+    max-width: 700px;
+    margin: auto;
     position: relative;
     border: 1px solid red;
     
@@ -253,6 +255,29 @@ header{
     border: 1px solid red;
 }
 
+.fourth-container{
+    display: flex;
+    height: calc(100vw /3);
+    margin:auto;
+    border: 1px solid red;
+}
+
+.brand-left, .brand-right, .brand-desc{
+    height: calc(100vw /3);
+    width: calc(100% / 3);
+    border: 1px solid red;
+}
+
+.brand-left, .brand-right{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.brand-box{
+    width: 50%;
+    height: 50%;
+    border: 1px dashed red;
+}
 
 
 
