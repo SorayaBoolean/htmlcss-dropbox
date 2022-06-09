@@ -302,6 +302,48 @@ header{
     border: 1px solid red;  
 }
 
+.sixth-container{
+    max-width: 700px;
+    height: 350px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid red;   
+}
+
+.sixth-container-box{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+   
+}
+
+#title-questions{
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+/*qui inizia footer*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    background-color: black;
+    color: white;
+    border: 1px solid red;  
+}
+
+.footer-column{
+    padding: 30px; 
+}
+
+.footer-column:hover{
+border-bottom: 2px solid white;
+}
 
 
-
+li{
+    list-style: none;
+}
