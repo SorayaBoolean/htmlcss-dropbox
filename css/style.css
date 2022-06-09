@@ -99,17 +99,14 @@ a {
     right: 15%;
 }
 
-.jumbo-arrow-link{
 
-}
 
 /*inizio main*/
 
 .firts-container{
     max-width: 700px;
     height: 1100px;
-    margin:auto;
-    
+    margin:auto; 
 }
 
 .first-title{
@@ -185,11 +182,22 @@ a {
     margin: 20px 0px;
     padding: 0px 15px;
 }
+.green {
+    max-width: calc(100% / 3);
+    text-align: left;
+}
 
+.green.left{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
 
-
-
-
+.green.right{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
 
 .first-container-box1, .first-container-box2,.first-container-box3 {
     width: calc(100% / 3);
@@ -199,12 +207,22 @@ a {
 }
 
 .first-container-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
     height: 200px;
-    width: 700px;
+    width: 680px;
     margin-top: 20px;
     margin-bottom: 0%;
     text-align: center;
-    border: 1px solid red; 
+    border: 1px solid #D0D0D3; 
+}
+
+.row-border{
+    width: 100%;
+    height: 20px;
+    border-bottom: 1px solid #D0D0D3;
 }
 
 .second-container{
@@ -212,24 +230,36 @@ a {
     height: 300px;
     max-width: 700px;
     margin:auto;
-    border: 1px solid red; 
+}
+
+.second-container img {
+    height: 100%;
+    width: 100% ;
+}
+
+.second-container  h2{
+    padding-top: 30px;
+    padding-left:30px;
+}
+
+.second-container p {
+    padding-top: 30px;
+    padding-left:30px;
 }
 
 .imgbox, .partner-box{
     height: 100%;
     width: calc(100% / 2);
-    border: 1px solid red; 
 }
 
 .third-container{
     max-width: 700px;
     height: 900px;
     margin:auto;
-    border: 1px solid red;
 }
 
 .third-title{
-    border: 1px solid red;
+
 }
 
 .boxes-container{
@@ -239,7 +269,6 @@ a {
 .box-third-container{
     height: 412px;
     width: calc(100% / 3);
-    border: 1px solid red;
 }
 
 .toolsimg{
@@ -250,7 +279,6 @@ a {
 .text-tools{
     height: 50%px;
     width: 100%;
-    border: 1px solid red;
 }
 
 .marketing{
@@ -258,18 +286,14 @@ a {
     max-width: 700px;
     margin: auto;
     position: relative;
-    border: 1px solid red;
-    
 }
 #team{
     padding-top: 80px;
-    border: 1px solid red;
 }
 
 #scopri{
     position: absolute;
     top: 70%;
-    border: 1px solid red;
 }
 
 .fourth-container{
