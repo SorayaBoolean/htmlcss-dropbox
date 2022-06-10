@@ -44,6 +44,7 @@ button{
     padding: 5px;
 }
 
+
 a {
     color:#1E74FF;
 }
@@ -399,8 +400,25 @@ margin-bottom: 80px;
 
 .sixth-container-box{
     display: flex;
+    position: relative;
     padding: 20px;
     justify-content: space-around; 
+}
+
+#hover-arrow{
+    position: absolute;
+    top: 10px;
+    visibility: hidden;
+    font-size:x-large
+}
+
+
+.answer{
+    width: 100%;
+    height: 40%;
+    
+    position: absolute;
+    bottom:0
 }
 
 #title-questions{
@@ -432,4 +450,22 @@ border-bottom: 2px solid white;
 
 li{
     list-style: none;
+}
+
+
+/*effetti hover*/
+
+
+button:hover{
+    cursor: pointer;
+}
+
+.hover-h:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+header .logo:hover{
+opacity: 40%;
+cursor: pointer;
 }
