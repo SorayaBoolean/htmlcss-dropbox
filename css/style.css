@@ -230,6 +230,7 @@ a {
     height: 300px;
     max-width: 700px;
     margin:auto;
+    margin-top: 40px;
 }
 
 .second-container img {
@@ -256,10 +257,11 @@ a {
     max-width: 700px;
     height: 900px;
     margin:auto;
+    margin-top: 80px;
 }
 
-.third-title{
-
+.third-container h1{
+margin-bottom: 80px;
 }
 
 .boxes-container{
@@ -269,15 +271,17 @@ a {
 .box-third-container{
     height: 412px;
     width: calc(100% / 3);
+    padding: 0px 15px;
 }
 
-.toolsimg{
+.toolsimg, .text-tools{
     height: 50%px;
     width: 100%;
+    padding-top: 5px;
 }
 
-.text-tools{
-    height: 50%px;
+.brand-img{
+    height: 100%;
     width: 100%;
 }
 
@@ -300,13 +304,11 @@ a {
     display: flex;
     height: calc(100vw /3);
     margin:auto;
-    border: 1px solid red;
 }
 
 .brand-left, .brand-right, .brand-desc{
     height: calc(100vw /3);
     width: calc(100% / 3);
-    border: 1px solid red;
 }
 
 .brand-left, .brand-right{
@@ -317,8 +319,41 @@ a {
 .brand-box{
     width: 50%;
     height: 50%;
-    border: 1px dashed red;
 }
+
+.brand-box img{
+    padding: 50px 50px;
+/*come mettere scritta bianca?*/
+}
+.designit{
+    background-color: #A2D39B;
+}
+ .asu{
+     background-color: #61082B;
+ }
+
+ .florida{
+    background-color: #0093CE;
+ }
+
+ .topp{
+     background-color: #FF1C1C;
+ }
+
+ .bicycle{
+     background-color: #D5001F;
+ }
+ .hearst{
+     background-color: #B4D0E7;
+ }
+
+ .lonely{
+    background-color: #0D2481;
+ }
+
+ .clear{
+    background-color: #FFD830;
+ }
 
 .fifth-container{
     display: flex;
@@ -330,7 +365,6 @@ a {
 }
 
 .porta h1{
-
     color: #61082B;
     font-size: xx-large;
     border: 1px solid red;
@@ -354,8 +388,7 @@ a {
 .sixth-container-box{
     display: flex;
     padding: 20px;
-    justify-content: space-around;
-   
+    justify-content: space-around; 
 }
 
 #title-questions{
