@@ -321,6 +321,13 @@ margin-bottom: 80px;
     height: 50%;
 }
 
+.brand-desc{
+    background-color: #F5F5F5;
+}
+.brand-desc p{
+    padding: 30px 20px;
+}
+
 .brand-box img{
     padding: 50px 50px;
 /*come mettere scritta bianca?*/
@@ -355,34 +362,39 @@ margin-bottom: 80px;
     background-color: #FFD830;
  }
 
+ .brand-desc{
+    scroll-behavior: smooth;
+ }
+ 
+ #designid{
+    height: 70px;
+    margin: 20px 20px;
+ }
+
 .fifth-container{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 250px;
     background-color: #B4D0E7;
-    border: 1px solid red;
 }
 
 .porta h1{
     color: #61082B;
     font-size: xx-large;
-    border: 1px solid red;
 }
 
 .porta-button{
     height: 50px;
     padding-top: 20px;
-    margin-left: 100px;
-    border: 1px solid red;  
+    margin-left: 100px; 
 }
 
 .sixth-container{
     max-width: 700px;
     height: 350px;
     margin: auto;
-    text-align: center;
-    border: 1px solid red;   
+    text-align: center;   
 }
 
 .sixth-container-box{
@@ -405,12 +417,12 @@ footer{
     align-items: center;
     height: 350px;
     background-color: black;
-    color: white;
-    border: 1px solid red;  
+    color: white; 
 }
 
 .footer-column{
     padding: 30px; 
+    border-bottom: 2px solid black;
 }
 
 .footer-column:hover{
