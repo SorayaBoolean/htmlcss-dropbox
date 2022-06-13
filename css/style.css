@@ -74,6 +74,7 @@ nav li a {
 .btn-blue{
     background-color: #1E74FF;
     color: white;
+    border: none;
 }
 
 
@@ -130,7 +131,6 @@ nav li a {
 
 .checkbox{
     display: flex;
-   
 }
 
 .check-text{
